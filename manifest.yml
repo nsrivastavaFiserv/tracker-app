@@ -1,0 +1,4 @@
+---
+applications:
+  - name: tracker-app
+    path: ./build/libs/tracker-app.jar
