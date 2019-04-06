@@ -2,3 +2,9 @@
 applications:
   - name: tracker-app
     path: ./build/libs/tracker-app.jar
+    routes:
+    -route: test-tracker-app-nishant.cfapps.io
+    random-route: false
+    env:
+      appowner.name: Nishant Srivastava
+
